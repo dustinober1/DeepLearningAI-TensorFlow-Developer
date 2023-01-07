@@ -1,4 +1,4 @@
-# Deep Learning AI TensorFlow Developer
+# DeepLearning.AI TensorFlow Developer
 ## Coruse 1 - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 ### Week 1 - A New Programming Paradigm
 ### Week 2 - Introduction to Computer Vision
