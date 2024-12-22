@@ -1,68 +1,111 @@
-# Course 1 - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+# Course 1: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
-## Week 1 - A New Programming Paradigm
-      Video: Introduction: A conversation with Andrew Ng
-      Reading: Where to find the notebooks for this course
-      Video: A primer in machine learning
-      Video: The ‘Hello World’ of neural networks
-      LTI Item: Intake Survey
-      LTI Item: [IMPORTANT] Have questions, issues or ideas? Join our Community!
-      Reading: From rules to data
-      Video: Working through ‘Hello World’ in TensorFlow and Python
-      Ungraded Plugin: Get started with Google Colaboratory (Coding TensorFlow)
-      Reading: FAQs about Google Colab (optional)
-      Reading: Try it for yourself (Lab 1)
-      LTI Item: Lecture Notes W1
-      Reading: Assignment Troubleshooting Tips
-      Reading: (Optional) Downloading your Notebook and Refreshing your Workspace
-      Reading: Week 1 Resources
-## Week 2 - Introduction to Computer Vision
-      Video: A Conversation with Andrew Ng
-      Video: An Introduction to computer vision
-      Reading: Exploring how to use data
-      Video: Writing code to load training data
-      Reading: The structure of Fashion MNIST data
-      Video: Coding a Computer Vision Neural Network
-      Reading: See how it's done
-      Video: Walk through a Notebook for computer vision
-      Reading: Get hands-on with computer vision (Lab 1)
-      Video: Using Callbacks to control training
-      Reading: See how to implement Callbacks (Lab 2)
-      Video: Walk through a notebook with Callbacks
-      LTI Item: Lecture Notes W2
-## Week 3 - Enhancing Vision with Convolutional Neural Networks
-      Video: A conversation with Andrew Ng
-      Video: What are convolutions and pooling?
-      Reading: Coding convolutions and pooling layers
-      Video: Implementing convolutional layers
-      Reading: Learn more about convolutions
-      Video: Implementing pooling layers
-      Reading: Getting hands-on, your first ConvNet
-      Video: Improving the Fashion classifier with convolutions
-      Reading: Try it for yourself (Lab 1)
-      Video: Walking through convolutions
-      Reading: Experiment with filters and pools (Lab 2)
-      LTI Item: Lecture Notes W3
-## Week 4 - Using Real-world Images
-      Video: A conversation with Andrew Ng
-      Reading: Explore an impactful, real-world solution
-      Video: Understanding ImageDataGenerator
-      Reading: Designing the neural network
-      Video: Defining a ConvNet to use complex images
-      Reading: Train the ConvNet with ImageDataGenerator
-      Video: Training the ConvNet
-      Reading: Exploring the solution
-      Video: Walking through developing a ConvNet
-      Reading: Training the neural network
-      Video: Walking through training the ConvNet
-      Reading: Experiment with the horse or human classifier (Lab 1)
-      Video: Adding automatic validation to test accuracy
-      Reading: Get hands-on and use validation (Lab 2)
-      Video: Exploring the impact of compressing images
-      Reading: Get Hands-on with compacted images (Lab 3)
-      LTI Item: Lecture Notes W4
-      Reading: Wrap up
-      Video: A conversation with Andrew
-      Reading: Acknowledgments
+This directory contains the coursework, assignments, and projects completed during **Course 1** of the [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice). This course introduces foundational concepts of TensorFlow and demonstrates how to create deep learning models to solve practical problems.
 
-![Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning Certificate](https://user-images.githubusercontent.com/106895471/211166538-67ccca66-edf9-4f67-b6a9-e81f1a7826ff.png)
+---
+
+## Key Topics Covered
+
+1. **Machine Learning Basics**:
+   - Understanding how neural networks learn.
+   - Building models with TensorFlow.
+   
+2. **Building Neural Networks**:
+   - Constructing simple models for regression and classification tasks.
+   - Applying activation functions like ReLU and Softmax.
+   
+3. **Computer Vision**:
+   - Training neural networks on image datasets.
+   - Using convolutions to improve performance.
+   
+4. **Overfitting Prevention**:
+   - Implementing strategies such as dropout and early stopping.
+
+---
+
+## Course Structure
+
+This course is divided into four weeks. Each week's content focuses on a specific theme, with assignments and coding labs to reinforce learning.
+
+### Week 1: Introduction to TensorFlow
+- **Objective**: Learn the fundamentals of TensorFlow and its high-level API, Keras.
+- **Lab**: Implement a simple neural network to classify images from the Fashion MNIST dataset.
+  
+### Week 2: Improving Neural Networks
+- **Objective**: Understand the role of activation functions, optimizers, and loss functions.
+- **Lab**: Train a multi-class classifier with additional layers and improved accuracy.
+
+### Week 3: Introduction to Convolutions
+- **Objective**: Understand the concept of convolutional neural networks (CNNs).
+- **Lab**: Build a CNN to improve the performance of the Fashion MNIST classifier.
+
+### Week 4: Real-World Applications
+- **Objective**: Apply TensorFlow to real-world scenarios, including image data.
+- **Lab**: Train models on custom datasets and explore data augmentation techniques.
+
+---
+
+## Repository Structure
+
+```plaintext
+Course 1/
+├── Week 1/
+│   ├── TensorFlow_Basics.ipynb  # Introduction to TensorFlow
+│   ├── Fashion_MNIST_Classifier.ipynb  # First ML model
+├── Week 2/
+│   ├── Improved_Model.ipynb  # Multi-class classification improvements
+├── Week 3/
+│   ├── CNN_Basics.ipynb  # Introduction to Convolutions
+├── Week 4/
+│   ├── Real_World_Applications.ipynb  # Applying deep learning to real-world datasets
+```
+
+---
+
+## Getting Started
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/dustinober1/DeepLearningAI-TensorFlow-Developer.git
+   cd DeepLearningAI-TensorFlow-Developer/Course 1
+   ```
+
+2. **Set up the environment**:
+   Install TensorFlow and other required packages:
+   ```bash
+   pip install tensorflow numpy matplotlib
+   ```
+
+3. **Run the Jupyter notebooks**:
+   Open any notebook using Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+
+4. **Explore the assignments and solutions**:
+   Each notebook contains the problem description, implementation, and solutions.
+
+---
+
+## Key Assignments and Projects
+
+- **Fashion MNIST Classifier**: Build and train a neural network to classify images of clothing into categories like shirts, pants, and sneakers.
+- **Convolutional Neural Network**: Train a CNN model to improve accuracy on the Fashion MNIST dataset.
+- **Custom Dataset Training**: Use TensorFlow to handle and train models on real-world datasets.
+
+---
+
+## Resources
+
+- [TensorFlow Documentation](https://www.tensorflow.org/learn)
+- [DeepLearning.AI TensorFlow Developer Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
+
+---
+
+## Contributing
+
+Feel free to open issues or submit pull requests to improve the content or share your insights.
+
+---
+
+Let me know if you'd like further refinements or enhancements! 🚀
